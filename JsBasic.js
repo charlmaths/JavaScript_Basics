@@ -6,6 +6,10 @@ console.log(2 + 2); // This will print out 4
 console.log(20 / 4); // This will print out 5
 console.log(20 / 3); // This will print out 6.666667
 console.log(5 * 4); // This will print out 20
+console.log(5 ** 2); // 5^2 = 25
+console.log(25 ** (1 / 2)); // sqrt(25)
+console.log(8 % 3); // 2, this is the remainder of 8/3 = 6, remainder 2
+console.log(8 % 4); // 0, no remainder, 8/4 = 2.
 
 // Basic variable decleration and storing data in them
 let message; // Declare a variable (storage) and named it 'message'
