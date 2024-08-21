@@ -22,3 +22,11 @@ console.log(message); // To print out the data stored
 let name = "John";
 let admin = name; // Ignore the strikethrough for now - this is for TypeScript, which we will cover later!
 console.log(admin);
+
+// Giving the right name
+// Level: 2
+// Create a variable with the name of our planet. How would you name such a variable?
+// Create a variable to store the name of a current visitor to a website. How would you name that variable?
+
+const PLANET = "Earth";
+let currentUserName = "John";
