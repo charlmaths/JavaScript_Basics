@@ -56,6 +56,10 @@ let prefixCounter = 1;
 a = ++prefixCounter;
 console.log(a);
 
+let postfixCounter = 5;
+b = postfixCounter++;
+console.log(b);
+
 // What are the final values of all variables a, b, c and d after the code below?
 
 // let a = 1, b = 1;
