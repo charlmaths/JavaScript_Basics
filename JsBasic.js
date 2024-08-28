@@ -53,7 +53,7 @@ console.log(counter_2);
 
 // Showing prefix form and postfix form of increments/decrements
 let prefixCounter = 1;
-a = prefixCounter++;
+a = ++prefixCounter;
 console.log(a);
 
 // What are the final values of all variables a, b, c and d after the code below?
