@@ -36,6 +36,21 @@ const PLANET = "Earth";
 let currentUserName = "John";
 
 // Operator Tasks:
+
+// Increment/Decrement example:
+let counter = 1;
+counter++;
+console.log(counter);
+
+// this is the same as above
+let counter_1 = 1;
+counter_1 = counter_1 + 1;
+console.log(counter_1);
+
+let counter_2 = 1;
+counter_2 += 1;
+console.log(counter_2);
+
 // What are the final values of all variables a, b, c and d after the code below?
 
 // let a = 1, b = 1;
