@@ -51,6 +51,11 @@ let counter_2 = 1;
 counter_2 += 1;
 console.log(counter_2);
 
+// Showing prefix form and postfix form of increments/decrements
+let prefixCounter = 1;
+a = prefixCounter++;
+console.log(a);
+
 // What are the final values of all variables a, b, c and d after the code below?
 
 // let a = 1, b = 1;
@@ -58,18 +63,18 @@ console.log(counter_2);
 // let c = ++a;
 // let d = b++;
 
-let a = 1;
-let b = 1;
-console.log(a);
-console.log(b);
-console.log(++a);
-console.log(b++);
+// let a = 1;
+// let b = 1;
+// console.log(a);
+// console.log(b);
+// console.log(++a);
+// console.log(b++);
 
-let c = ++a;
-let d = b++;
+// let c = ++a;
+// let d = b++;
 
-console.log(c);
-console.log(d);
+// console.log(c);
+// console.log(d);
 
 //   b = 1;
 // let c = ++a;
