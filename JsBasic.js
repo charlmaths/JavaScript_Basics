@@ -52,13 +52,13 @@ counter_2 += 1;
 console.log(counter_2);
 
 // Showing prefix form and postfix form of increments/decrements
-let prefixCounter = 1;
-a = ++prefixCounter;
-console.log(a);
+// let prefixCounter = 1;
+// a = ++prefixCounter;
+// console.log(a);
 
-let postfixCounter = 5;
-b = postfixCounter++;
-console.log(b);
+// let postfixCounter = 5;
+// b = postfixCounter++;
+// console.log(b);
 
 // What are the final values of all variables a, b, c and d after the code below?
 
@@ -85,3 +85,19 @@ console.log(b);
 // let d = b++;
 
 // console.log(a, b, c, d);
+
+// JS Task:
+
+// Assignment result
+// importance: 3
+// What are the values of a and x after the code below?
+
+// let a = 2;
+
+// let x = 1 + (a *= 2);
+
+let a = 2;
+let x = 1 + (a *= 2);
+
+console.log(a);
+console.log(x);
