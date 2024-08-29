@@ -52,13 +52,13 @@ counter_2 += 1;
 console.log(counter_2);
 
 // Showing prefix form and postfix form of increments/decrements
-// let prefixCounter = 1;
-// a = ++prefixCounter;
-// console.log(a);
+let prefixCounter = 1;
+pref = ++prefixCounter;
+console.log(pref);
 
-// let postfixCounter = 5;
-// b = postfixCounter++;
-// console.log(b);
+let postfixCounter = 1000;
+postf = postfixCounter++;
+console.log(postf);
 
 // What are the final values of all variables a, b, c and d after the code below?
 
