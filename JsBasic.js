@@ -101,3 +101,5 @@ let x = 1 + (a *= 2);
 
 console.log(a);
 console.log(x);
+
+console.log(true + false);
