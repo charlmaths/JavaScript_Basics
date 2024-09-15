@@ -141,3 +141,12 @@ function numberChecker(number) {
 }
 
 const functionCall = numberChecker(-5);
+
+// Sidenote - Addding HTML elements using JS
+
+const header2Tag = document.createElement("h2");
+header2Tag.innerHTML = "H2 Element inserted using JS";
+
+const parentTag = document.querySelector("body");
+
+parentTag.appendChild(header2Tag);
