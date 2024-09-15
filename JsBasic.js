@@ -127,3 +127,17 @@ function troubleshooting() {
 }
 
 console.log(troubleshooting());
+
+// New function to check number if number is greater or equal to 10, if it is, then we console log true, if not false.
+
+function numberChecker(number) {
+  if (number >= 10) {
+    console.log(true);
+  } else if (number <= 10) {
+    console.log(false);
+  } else {
+    console.log("Number out of range");
+  }
+}
+
+const functionCall = numberChecker(-5);
