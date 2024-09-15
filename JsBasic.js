@@ -144,9 +144,11 @@ const functionCall = numberChecker(-5);
 
 // Sidenote - Addding HTML elements using JS
 
+// Create a variable and use document.createElement method to create the element we want
 const header2Tag = document.createElement("h2");
+// To store value into the variable we created and then use innerHTML method to put it into HTML document
 header2Tag.innerHTML = "H2 Element inserted using JS";
 
+// We must always select a parent element, i.e. and element where it's going to go!
 const parentTag = document.querySelector("body");
-
 parentTag.appendChild(header2Tag);
