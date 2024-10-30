@@ -177,3 +177,14 @@ function troubleshooting() {
 
 // const definedFunction = troubleshooting();
 console.log(troubleshooting());
+
+// Changing number types
+
+let myNumber = "74";
+myNumber += 3;
+console.log(myNumber); // Because it is treated as string and therefore concanated
+
+let myNumber2 = "74";
+let convertedmyNumber2 = +myNumber2; // converted to integer using unary operator
+convertedmyNumber2 += 3; // modified in place by adding 3 to current value in variable
+console.log(convertedmyNumber2);
